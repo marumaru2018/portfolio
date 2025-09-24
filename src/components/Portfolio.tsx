@@ -4,7 +4,7 @@ import { PROJECTS } from "../constants/index";
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(PROJECTS[0]);
 
-  const handleClick = (item) => {
+  const handleClick = (item: number) => {
     setSelectedProject(PROJECTS[item]);
   };
 

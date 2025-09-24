@@ -21,4 +21,10 @@ const PROJECTS = [
   },
 ];
 
-export { PROJECTS };
+const SOCIAL_URL = {
+  github: "#",
+  x: "#",
+  blog: "#",
+};
+
+export { PROJECTS, SOCIAL_URL };
