@@ -27,4 +27,8 @@ const SOCIAL_URL = {
   blog: "#",
 };
 
-export { PROJECTS, SOCIAL_URL };
+export const BASE_URL =
+  import.meta.env.MODE === "production"
+    ? "https://marumaru2018.github.io/portfolio"
+    : "";
+export { PROJECTS, SOCIAL_URL, BASE_URL };

@@ -1,10 +1,16 @@
+import { BASE_URL } from "../constants/index";
+
 const About = () => {
   return (
     <div>
       <section id="about" className="w-full bg-white">
         <div className="container mx-auto py-36 max-w-4xl flex items-center">
           <div className="w-1/2">
-            <img src="/jog.jpg" alt="Jog" className="rounded-lg shadow-md" />
+            <img
+              src={`${BASE_URL}/jog.jpg`}
+              alt="Jogging"
+              className="rounded-lg shadow-md"
+            />
           </div>
           <div className="w-1/2 pl-6 space-y-8">
             <h2 className="text-5xl font-bold text-stone-800">About</h2>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PROJECTS } from "../constants/index";
+import { BASE_URL, PROJECTS } from "../constants/index";
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(PROJECTS[0]);
@@ -36,7 +36,10 @@ const Portfolio = () => {
           </div>
           {/* プロジェクト詳細 */}
           <div className="w-full col-span-2">
-            <img src={selectedProject.img} alt={selectedProject.name} />
+            <img
+              src={BASE_URL + selectedProject.img}
+              alt={selectedProject.name}
+            />
             {selectedProject && (
               <div>
                 <h3 className="text-2xl font-bold text-stone-800">
