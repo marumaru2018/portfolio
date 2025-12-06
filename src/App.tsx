@@ -10,10 +10,8 @@ function App() {
     <>
       <Header />
       {/* Hero */}
-      <div>Hero</div>
       <Hero />
       {/* About */}
-      <div>About</div>
       <About />
       <Portfolio />
       <Social />

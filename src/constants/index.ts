@@ -1,5 +1,12 @@
 const PROJECTS = [
   {
+    name: "ポートフォリオサイト",
+    emoji: "🚀",
+    description: "このサイト",
+    img: "/react-portfolio.jpg",
+    link: "https://example.com/project-one",
+  },
+  {
     name: "Project One",
     emoji: "🚀",
     description: "Description for project one.",

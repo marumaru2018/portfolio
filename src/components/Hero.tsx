@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa6";
+
 const Hero = () => {
   return (
     <section className="pt-36 pb-24 bg-stone-50">
@@ -17,7 +19,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* icon */}
+          <FaGithub className="w-6 h-6 mr-2" />
           GitHub
         </a>
       </div>
